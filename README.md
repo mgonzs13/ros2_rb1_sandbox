@@ -13,7 +13,7 @@ $ GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:~/ros2_ws/install/aws_robomaker_hospital_
 
 ## Usage
 
-- AWS Bookstore
+### AWS Bookstore
 
 ```shell
 $ ros2 launch rb1_sandbox bookstore.launch.py
@@ -21,7 +21,7 @@ $ ros2 launch rb1_sandbox bookstore.launch.py
 
 ![](./docs/bookstore.png)
 
-- AWS Small House
+### AWS Small House
 
 ```shell
 $ ros2 launch rb1_sandbox small_house.launch.py
@@ -29,7 +29,7 @@ $ ros2 launch rb1_sandbox small_house.launch.py
 
 ![](./docs/small_house.png)
 
-- AWS Small Warehouse
+### AWS Small Warehouse
 
 ```shell
 $ ros2 launch rb1_sandbox small_warehouse.launch.py
@@ -37,7 +37,7 @@ $ ros2 launch rb1_sandbox small_warehouse.launch.py
 
 ![](./docs/small_warehouse.png)
 
-- AWS Hospital
+### AWS Hospital
 
 ```shell
 $ ros2 launch rb1_sandbox hospital.launch.py
