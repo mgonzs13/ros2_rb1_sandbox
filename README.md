@@ -8,6 +8,7 @@ RB1 simulation with several Gazebo worlds.
 $ cd ~/ros2_ws/src
 $ git clone --recurse-submodules git@github.com:mgonzs13/ros2_rb1_sandbox.git
 $ colcon build
+$ cd ~/ros2_ws
 $ GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:~/ros2_ws/install/aws_robomaker_hospital_world/share/aws_robomaker_hospital_world/fuel_models/
 ```
 
