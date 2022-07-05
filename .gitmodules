@@ -1,16 +1,16 @@
 [submodule "aws-robomaker-bookstore-world"]
 	path = aws-robomaker-bookstore-world
-	url = git@github.com:aws-robotics/aws-robomaker-bookstore-world.git
+	url = https://github.com/aws-robotics/aws-robomaker-bookstore-world.git
 	branch = ros2
 [submodule "aws-robomaker-small-house-world"]
 	path = aws-robomaker-small-house-world
-	url = git@github.com:aws-robotics/aws-robomaker-small-house-world.git
+	url = https://github.com/aws-robotics/aws-robomaker-small-house-world.git
 	branch = ros2
 [submodule "aws-robomaker-small-warehouse-world"]
 	path = aws-robomaker-small-warehouse-world
-	url = git@github.com:aws-robotics/aws-robomaker-small-warehouse-world.git
+	url = https://github.com/aws-robotics/aws-robomaker-small-warehouse-world.git
 	branch = ros2
 [submodule "aws-robomaker-hospital-world"]
 	path = aws-robomaker-hospital-world
-	url = git@github.com:aws-robotics/aws-robomaker-hospital-world.git
+	url = https://github.com/aws-robotics/aws-robomaker-hospital-world.git
 	branch = ros2
