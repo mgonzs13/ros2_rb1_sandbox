@@ -13,9 +13,15 @@ from launch.launch_description_sources import PythonLaunchDescriptionSource
 def generate_launch_description():
 
     aws_dir = get_package_share_directory("aws_robomaker_hospital_world")
+    pkg_dir = get_package_share_directory("rb1_sandbox")
 
     stdout_linebuf_envvar = SetEnvironmentVariable(
         "RCUTILS_LOGGING_BUFFERED_STREAM", "1")
+
+    map_yaml_file = os.path.join(
+        pkg_dir,
+        "maps/hospital",
+        "map.yaml")
 
     world = os.path.join(aws_dir, "worlds", "hospital.world")
 
@@ -23,7 +29,7 @@ def generate_launch_description():
         PythonLaunchDescriptionSource(
             os.path.join(get_package_share_directory("rb1_gazebo"),
                          "launch", "gazebo_nav2.launch.py")),
-        launch_arguments={"slam": "True",
+        launch_arguments={"map": map_yaml_file,
                           "world": world,
                           "initial_nav_pose_x": "0.0",
                           "initial_nav_pose_y": "10.0",

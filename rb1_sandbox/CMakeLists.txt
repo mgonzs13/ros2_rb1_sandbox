@@ -6,7 +6,7 @@ find_package(ament_cmake REQUIRED)
 find_package(rb1_gazebo REQUIRED)
 
 install(
-  DIRECTORY launch
+  DIRECTORY launch maps
   DESTINATION share/${PROJECT_NAME}
 )
 
